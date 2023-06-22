@@ -1,0 +1,147 @@
+.arriba
+{
+    height: 45%;
+    
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li
+{
+    float: right;
+    padding: 10px 10px 0 10px;
+
+}
+
+a
+{
+    font-size: 20px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: top 20%;
+}
+
+.intermedio
+{
+   
+    height: 10%;
+   text-align: center;
+}
+
+.centro
+{
+    height: 50%;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.uno
+{
+    height: 100%;
+    background-image: url(img/esculpidas.jpg); 
+    background-size: cover;
+    box-shadow: 0 0 5px black;
+    display: inline-block;
+}
+.dos
+{
+    height: 100%;
+    background-image: url(img/semipermanente.jpg);
+    background-size: cover;
+    display: inline-block;
+    box-shadow: 0 0 5px black;
+}
+.tres
+{
+    height: 100%;
+    background-image: url(img/softgel.jpg);
+    background-size: cover;
+    display: inline-block;
+    box-shadow: 0 0 5px black;
+}
+.cuatro
+{
+    height: 100%;
+    background-image: url(img/kapping.jpg);
+    background-size: cover;
+    box-shadow: 0 0 5px black;
+    display: inline-block;
+   
+}
+
+.abajo
+{
+    height: 30%;
+   
+}
+
+
+.top 
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    display: none;
+    z-index: 9999;
+
+}
+.top.show
+ {
+    display: block;
+ }
+
+  .container 
+  {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+
+  .container label, .container input, .container textarea 
+  {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .container input, .container textarea
+  {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .container textarea 
+  {
+    resize: vertical;
+    height: 150px;
+  }
+
+  .container input[type="submit"] 
+  {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .container input[type="submit"]:hover
+  {
+    background-color: #45a049;
+  }
+
+  
